@@ -1,5 +1,5 @@
 {
-  description = ''Self-contained markdown compiler generating self-contained HTML documents'';
+  description = ''Self-contained markdown compiler generating self-container HTML files'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
