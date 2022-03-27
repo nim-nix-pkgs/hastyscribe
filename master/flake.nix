@@ -11,6 +11,7 @@
   inputs.src-hastyscribe-master.ref   = "refs/heads/master";
   inputs.src-hastyscribe-master.owner = "h3rald";
   inputs.src-hastyscribe-master.repo  = "hastyscribe";
+  inputs.src-hastyscribe-master.dir   = "";
   inputs.src-hastyscribe-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

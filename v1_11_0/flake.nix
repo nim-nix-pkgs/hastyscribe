@@ -11,6 +11,7 @@
   inputs.src-hastyscribe-v1_11_0.ref   = "refs/tags/v1.11.0";
   inputs.src-hastyscribe-v1_11_0.owner = "h3rald";
   inputs.src-hastyscribe-v1_11_0.repo  = "hastyscribe";
+  inputs.src-hastyscribe-v1_11_0.dir   = "";
   inputs.src-hastyscribe-v1_11_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
