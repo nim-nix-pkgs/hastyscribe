@@ -129,7 +129,7 @@
     },
     {
       "name": "hastyscribe",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": "Fabio Cevasco",
       "desc": "Self-contained markdown compiler generating self-contained HTML documents",
       "license": "MIT",
@@ -165,8 +165,9 @@
         "LICENSE.md",
         "markdown.nim",
         "README.md",
-        "vendor/libmarkdown_osx.a",
-        "vendor/libmarkdown_win.a",
+        "vendor/libmarkdown_macosx.a",
+        "vendor/libmarkdown_windows.a",
+        "vendor/libmarkdown_linux.a",
         "hastyscribe.nim"
       ],
       "installExt": [],
